@@ -1,0 +1,20 @@
+These are some steps and important links for you to help with the topics we have discussed in today's session
+
+Steps to create a simple angular application (CMD) :
+download and install nodejs (and npm inbuilt) from https://nodejs.org/en/download/
+open command prompt (cmd) in your pc and enter node --version and npm --version to make sure if nodejs and npm are installed properly
+now install angular cli (command line interface -compiler) by entering npm install @angular/cli
+now go to the folder where you want to create your application and open cmd 
+to create new application, enter ng new demoappname
+move into the application folder with cd demoappname 
+to run the application, enter ng serve (or) ng serve --host 0.0.0.0 --port 1234
+
+Steps to create a simple angular application (VSCode) :
+download and install vscode ide from https://code.visualstudio.com/download
+open vscode and select file > open folder (where you want to create your application)
+open extensions in activity bar then search and install the extension "Angular Essentials (Version 9)" 
+choose terminal > new terminal (or ctrl + shift + `)
+to create new application, enter ng new demoappname
+to run the application, enter ng serve (or) ng serve --host 0.0.0.0 --port 1234 
+
+Please keep in touch if you have any queries regarding the concepts discussed in any session.
